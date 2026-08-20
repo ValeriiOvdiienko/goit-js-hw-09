@@ -27,6 +27,7 @@ input {
   border: 1px solid #808080;
   border-radius: 8px;
   height: 40px;
+  transition: border-color 0.3s ease-in-out;
 }
 input:hover,
 input:focus {
@@ -38,6 +39,7 @@ textarea {
   max-height: 80px;
   border: 1px solid #808080;
   border-radius: 8px;
+  transition: border-color 0.3s ease-in-out;
 }
 textarea:hover,
 textarea:focus {
@@ -53,4 +55,9 @@ button {
   min-width: 95px;
   height: 40px;
   margin-right: auto;
+  transition: background-color 0.3s ease-in-out;
+}
+button:hover,
+button:focus {
+  background-color: #6c8cff;
 }
