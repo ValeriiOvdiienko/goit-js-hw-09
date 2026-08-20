@@ -11,6 +11,8 @@ function handlerSubmit(event) {
     alert('Please fill all fields');
     return;
   }
+  console.log(formData);
+
   localStorage.removeItem(StorageKey);
   form.reset();
   formData.email = '';
