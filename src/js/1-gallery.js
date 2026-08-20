@@ -1,6 +1,5 @@
 import SimpleLightbox from 'simplelightbox';
 import '../css/1-gallery.css';
-import sprite from '../img/sprite.svg';
 import 'simplelightbox/dist/simple-lightbox.min.css';
 
 const images = [
