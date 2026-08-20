@@ -82,7 +82,7 @@ const markup = images
 </li>`;
   })
   .join('');
-const createMarkup = galeryBox.insertAdjacentHTML('afterbegin', markup);
+galeryBox.insertAdjacentHTML('afterbegin', markup);
 let gallery = new SimpleLightbox('.gallery a', {
   overlay: true,
   overlayOpacity: 0.8,
