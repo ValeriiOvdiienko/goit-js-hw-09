@@ -85,17 +85,11 @@ const markup = images
   .join('');
 const createMarkup = galeryBox.insertAdjacentHTML('afterbegin', markup);
 let gallery = new SimpleLightbox('.gallery a', {
-  className: 'custom-lightbox',
   overlay: true,
   overlayOpacity: 0.8,
   captions: true,
   captionsData: 'alt',
   captionDelay: 250,
   captionPosition: 'bottom',
-  closeText: `<svg><use href="${sprite}#icon-x"></use></svg>`,
-  navText: [
-    `<svg><use href="${sprite}#icon-left"></use></svg>`,
-    `<svg><use href="${sprite}#icon-right"></use></svg>`,
-  ],
 });
 gallery.open();

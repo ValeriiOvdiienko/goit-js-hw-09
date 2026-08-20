@@ -19,7 +19,6 @@ ol {
 .gallery-item {
   overflow: hidden;
   width: calc((100% - 48px) / 3);
-  max-width: 360px;
   max-height: 200px;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -51,13 +50,9 @@ body .sl-wrapper .sl-counter {
   font-family: inherit;
   color: inherit;
 }
-.sl-wrapper .sl-close svg {
-  width: 24px;
-  height: 24px;
-  fill: #ffffff;
+body .sl-wrapper .sl-close {
+  color: #ffffff;
 }
-.sl-wrapper .sl-navigation button svg {
-  width: 24px;
-  height: 24px;
-  fill: #ffffff;
+body .sl-wrapper .sl-navigation button {
+  color: #ffffff;
 }
